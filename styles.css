@@ -11,12 +11,14 @@ h1 {
     font-size: 100px;
     font-weight: 800;
     font-family: sans-serif;
+    padding-top: 30px;
 }
 
 p {
     color: #020202;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
+    max-width: 600px;
 }
 
 form {
@@ -28,19 +30,66 @@ form {
 }
 
 img {
-    width: 400px;
-    margin-left: 500px;
-    padding: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    width: 40%;
+
 
 }
 
 header {
 
-  background-color: red;
+  background-color: white;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
 .sunset {
   width: 800px;
   margin: 0px;
+}
+
+button {
+
+  padding: 40px 200px 40px 200px;
+  margin: 20px;
+  border: 0px;
+  color: white;
+  background-color: black;
+}
+
+.quote {
+  font-style: italic;
+  text-align: right;
+
+}
+
+q {
+
+  font-size: 60px;
+  text-align: left;
+  font-style: oblique;
+
+}
+
+a {
+
+  font-size: 200px;
+  text-align: center;
+  font-weight: 700;
+  color: #232234;
+  font: helvetica;
+
+}
+
+
+form {
+  border: 2px;
+  border-radius: 20px;
+  border-spacing: 100px;
 }
