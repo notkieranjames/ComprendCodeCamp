@@ -2,13 +2,17 @@
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
 body {
     background-color: #FFDDEE;
-    margin: 20px;
-    max-width: 990px;
+    margin: 50px;
+    margin-top: 50px
 
 }
 h1 {
-    color: #818181;
+    color: #020202;
+    font-size: 100px;
+    font-weight: 800;
+    font-family: sans-serif;
 }
+
 p {
     color: #020202;
     text-align: center;
@@ -28,7 +32,6 @@ img {
     margin-left: 500px;
     padding: 100px;
 
-
 }
 
 header {
@@ -39,5 +42,5 @@ header {
 
 .sunset {
   width: 800px;
-  margin: 10px
+  margin: 0px;
 }
