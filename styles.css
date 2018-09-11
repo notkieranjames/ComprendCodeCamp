@@ -1,7 +1,6 @@
 
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
 body {
-    background-color: #FFDDEE;
     margin: 50px;
     margin-top: 50px
 
@@ -50,8 +49,7 @@ header {
 }
 
 .sunset {
-  width: 800px;
-  margin: 0px;
+  margin-top: 50px;
 }
 
 button {
@@ -87,7 +85,9 @@ a {
 
 }
 
+.form {background-color: #e2dedb;
 
+}
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 
