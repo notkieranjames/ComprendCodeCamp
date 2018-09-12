@@ -1,259 +1,350 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
 
-/* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
-body {
-    margin: 50px;
-    margin-top: 50px
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
-h1 {
-    color: #020202;
-    font-size: 100px;
-    font-weight: 800;
-    font-family: sans-serif;
-    padding-top: 30px;
+.bgimg-1 {
+  background-image: url("img/IMG_6103.jpg");
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #D44B00;
+  color: #fff;
+  padding: 16px;
+  font-size: 28px;
+  letter-spacing: 20px;
+  font-kerning: auto;
+  font-weight: lighter;
+}
+
+.border {
+  opacity: 1;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+header {
+  margin: 100px;
+  margin-top: 30px;
+  position: relative;
+  left: 0;
+  text-align: center;
+  color: #000;
+
 }
 
 p {
+  margin-left: 140px;
+  margin-right: 140px;
+  position: relative;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #FFFFFF;
+    border: none;
     color: #020202;
-    text-align: left;
-    font-size: 18px;
-    max-width: 600px;
-}
-
-form {
-      text-align: left;
-      font-size: 24px;
-      margin: 50px;
-      padding:10px;
+    padding: 15px 82px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #020202;
+    margin-top: 30px;
 
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 40px;
-    width: 40%;
-
-
+.button:hover {
+    background-color: #020202; /* Green */
+    color: #FFFFFF;
 }
 
-header {
-
-  background-color: white;
+h1 {
+  padding-top: 20px;
   text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+  color: #000;
 }
 
-.sunset {
-  margin-top: 50px;
+header img {
+  width: 300px;
+  margin: 10px;
 }
 
-button {
 
-  padding: 40px 200px 40px 200px;
-  margin: 20px;
-  border: 0px;
-  color: white;
-  background-color: black;
+header img:hover {
+  background-color: #020202;
+  color: #FFFFFF;
+  opacity: 0.6;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
-.quote {
-  font-style: italic;
-  text-align: right;
 
-}
 
-q {
-
-  font-size: 60px;
-  text-align: left;
-  font-style: oblique;
-
-}
-
-a {
-
-  font-size: 200px;
-  text-align: center;
-  font-weight: 700;
-  color: #232234;
-  font: helvetica;
-
-}
-
-.form {background-color: #e2dedb;
-
-}
-
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
-
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
-}
-
-input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
-  color: #bbb5af;
-}
-
-input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
-}
-
-input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-  color: #bbb5af;
-}
-
-input::placeholder, textarea::placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
-}
-
-input:focus::placeholder, textarea::focus:placeholder {
-  color: #bbb5af;
-}
-
-input::-ms-placeholder, textarea::-ms-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
-}
-
-input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-  color: #bbb5af;
-}
-
-/* on hover placeholder */
-
-input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-
-input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
-  color: #cbc6c1;
-}
-
-input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-
-input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
-  color: #cbc6c1;
-}
-
-input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-
-input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-  color: #cbc6c1;
-}
-
-input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-
-input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-  color: #cbc6c1;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  background: #e2dedb;
-  color: #b3aca7;
-}
-
-header {
-  position: relative;
-  margin: 100px 0 25px 0;
-  font-size: 2.3em;
-  text-align: center;
-  letter-spacing: 7px;
-}
-
-#form {
-  position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
-}
-
-input {
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  width: 470px;
-  height: 50px;
-  padding: 0px 15px 0px 15px;
-
-  background: transparent;
-  outline: none;
-  color: #726659;
-
-  border: solid 1px #b3aca7;
-  border-bottom: none;
-
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-}
-
-input:hover {
-  background: #b3aca7;
-  color: #e2dedb;
-}
-
-textarea {
-  width: 470px;
-  max-width: 470px;
-  height: 110px;
-  max-height: 110px;
-  padding: 15px;
-
-  background: transparent;
-  outline: none;
-
-  color: #726659;
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-
-  border: solid 1px #b3aca7;
-
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-}
-
-textarea:hover {
-  background: #b3aca7;
-  color: #e2dedb;
-}
-
-#submit {
-  width: 502px;
-
+body
+{
+  margin: 0;
   padding: 0;
-  margin: -5px 0px 0px 0px;
 
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  color: #b3aca7;
+  /* make it look decent enough */
+  background: #fff;
+  color: #D44B00;
+}
 
-  outline:none;
+a
+{
+  text-decoration: none;
+  color: #232323;
+
+  transition: color 0.4s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
   cursor: pointer;
 
-  border: solid 1px #b3aca7;
-  border-top: none;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
 }
 
-#submit:hover {
-  color: #e2dedb;
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: #020202;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 200px;
+  margin: -100px 0 0 -50px;
+  padding: 40px;
+  padding-top: 125px;
+  font-weight: normal;
+  background: #ffffff;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 10px;
+  font-size: 21px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
+.container{
+  width:100%;
+  height:300px;
+  overflow: hidden;
+  position: relative;
+  opacity: 0.9;
+  margin: 50px 0 50px 0;
+}
+
+
+.full_img {
+  width:100%;
+}
+
+h2 {
+  font-size: 140pt;
+  font-family: serif;
+  font-weight: lighter;
+  color: #020202;
+  position: relative;
+  width: 400px;
+  font-style: normal;
+  text-overflow: ellipsis;
+  line-height: 140px;
+  margin-left: 640px;
+  margin-top: -50px;
+}
+
+
+.short_para {
+  width: 300px;
+  margin-right: 50px;
+  position: relative;
+  padding: 10px;
+  margin-top: -260px;
+  margin-left: 280px;
+  text-align: right;
+  color: #020202;
+}
+
+.button1 {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #FFFFFF;
+    border: none;
+    color: #020202;
+    padding: 10px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border: 2px solid #020202;
+    margin-top: 10px;
+    margin-left: 460px;
+
+}
+
+.button1:hover {
+    background-color: #020202; /* Green */
+    color: #FFFFFF;
+}
+
+.food {
+  width: 600px;
+  margin-left: 640px;
+  margin-top: -220px;
+  position: relative;
+}
+
+
+q {
+  font-size: 28px;
+  font-family: monospace;
+  position: absolute;
+  left: 0;
+  margin-top: 650px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.Gandhi {
+  text-align: center;
+  position: relative;
+  margin-top: 120px;
+  margin-bottom: 0px;
 }
