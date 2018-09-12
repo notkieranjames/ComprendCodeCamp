@@ -349,14 +349,8 @@ q {
   margin-bottom: 0px;
 }
 
-.footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #D44B00;
-    color: white;
-    text-align: center;
-    height: 400px;
-    opacity: 0.8;
-}
+
+
+ main {
+   flex: 1 0 auto;
+ }
