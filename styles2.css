@@ -7,7 +7,7 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.75;
+  opacity: 0.8;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@ body, html {
 
 .caption span.border {
   background-color: #D44B00;
-  color: #000;
+  color: #fff;
   padding: 16px;
   font-size: 28px;
   letter-spacing: 20px;
@@ -92,6 +92,9 @@ img {
 
 
 img:hover {
-  background-color: #020202; /* Green */
+  background-color: #020202;
   color: #FFFFFF;
+  opacity: 0.6;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
